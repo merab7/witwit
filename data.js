@@ -1,3 +1,5 @@
+
+
 const tweetsData = [   
     {
         handle: `@TrollBot66756542 💎`,
@@ -59,4 +61,4 @@ const tweetsData = [
 ]
 
 
-
+localStorage.setItem('twwtsdata', JSON.stringify(tweetsData))
